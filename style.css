@@ -9,3 +9,12 @@ body {
   font-weight: 200;
   font-style: normal;
 }
+
+img { 
+    width: 300px; 
+    border-radius: 10% 30% 50% 70%; 
+}  
+
+a {
+    color:blueviolet
+    }
