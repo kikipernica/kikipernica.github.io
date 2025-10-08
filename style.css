@@ -40,15 +40,20 @@ nav ul li{
     text-align: center;
     line-height: 50px;
     font-size: 30px;
+    padding: 1vw;
+    flex-wrap: wrap;
+
+
 }
 nav ul li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 25px;
     white-space: nowrap;
-    margin-right: 40px;
+    text-align: center;
     padding: 0 15px;
     font-weight: bold;
+    border-radius: 2vw;
     
     border: 2px solid-black;
     border-radius: 25px;
