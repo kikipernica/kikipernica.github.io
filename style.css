@@ -30,7 +30,7 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 120px;
+  gap: 100px;
 }
 
 nav ul li{
@@ -42,7 +42,6 @@ nav ul li{
     font-size: 30px;
     padding: 1vw;
     flex-wrap: wrap;
-
 
 }
 nav ul li a{
