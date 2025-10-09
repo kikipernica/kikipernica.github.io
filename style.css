@@ -22,6 +22,7 @@ a {
 
 nav{
     background-color: rgba(59, 57, 57, 0.134);
+
 }
 nav ul {
   display: flex;
@@ -61,6 +62,7 @@ nav ul li a{
     border-radius: 25px;
     background-color: white;
     display: inline-block; 
+
 }
 nav ul li a:hover{
     border-bottom: 2px solid black;
@@ -181,4 +183,26 @@ ul {
     font-size: 1rem;
     padding: 0.4rem 0.8rem;
   }
+}
+
+footer {
+  background-color: rgba(59, 57, 57, 0.134);
+  color: white;
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  width: 80%;        
+  max-width: 800px;   
+  margin: 0 auto; 
+  border: none;
+  color: rgba(59, 57, 57, 0.134);        
+  padding: 10px;                 
+  background-color: rgba(59, 57, 57, 0.134);   
+  border: 2px solid #999;        
+  border-radius: 8px;            
+  
 }
