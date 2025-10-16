@@ -1,0 +1,247 @@
+h1 {
+	color: rgb(0, 0, 0);
+	font-size: 40px;
+	font-weight: 400;
+}
+
+body {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  background-color: rgb(103, 103, 103);
+}
+
+img { 
+    width: 300px; 
+    border-radius: 15px; 
+}  
+
+a {
+    color:blueviolet
+    }
+
+nav{
+    background-color: rgba(59, 57, 57, 0.134);
+
+}
+nav ul {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+nav ul li{
+    width: 300px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    min-width: 150px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    white-space: nowrap;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    
+    border: 2px solid-black;
+    border-radius: 25px;
+    background-color: white;
+    display: inline-block; 
+
+}
+nav ul li a:hover{
+    border-bottom: 2px solid black;
+    color: rgba(59, 57, 57, 0.134);
+    font-weight: bold;
+}
+
+p { 
+    text-align: center;
+    color:rgb(255, 255, 255)
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    color: rgb(255, 255, 255)
+}
+
+li {
+    color:white
+}
+
+ul {
+    color:white
+}
+
+#navbar {
+    background-color: rgba(59, 57, 57, 0.134);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    margin: left 2002px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 10px;
+    margin: 0 4px;
+}
+
+#navbar ul li a:hover {
+    background-color: #93cb52;
+    border-radius: 5px;
+}
+
+@media(max-width:500px) {
+    body {
+        background-color: rgb(103, 103, 103);
+    }
+
+    #smartphone {
+        display: block;
+    }
+}
+
+@media(min-width: 501px) and (max-width:768px) {
+    body {
+        background-color: rgb(103, 103, 103);
+    }
+
+    #tablet {
+        display: block;
+    }
+}
+
+@media(min-width: 769px) and (max-width:1200px) {
+    body {
+        background-color: rgb(103, 103, 103);
+    }
+
+    #normal {
+        display: block;
+    }
+}
+
+@media(min-width: 1201px) {
+    body {
+        background-color: rgb(103, 103, 103);
+    }
+
+    #widescreen {
+        display: block;
+    }
+}
+
+@media(max-height: 500px) {
+    body {
+        background-color: rgb(103, 103, 103);
+    }
+
+    #landscape {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+  nav ul li {
+    min-width: 100px;
+    font-size: 1.2rem;
+  }
+  nav ul li a {
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+footer {
+  background-color: rgba(59, 57, 57, 0.134);
+  color: white;
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  width: 80%;        
+  max-width: 800px;   
+  margin: 0 auto; 
+  border: none;
+  color: rgba(59, 57, 57, 0.134);        
+  padding: 10px;                 
+  background-color: rgba(59, 57, 57, 0.134);   
+  border: 2px solid #999;        
+  border-radius: 8px;            
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* aby byl nad ostatním obsahem */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* volitelný stín */
+  background-color: rgba(59, 57, 57, 0.134);
+}
+
+.btn {
+  background: var(--accent);
+  color: var(--bg-top);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: rgba(37, 36, 36, 0.134);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.4);
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+}
