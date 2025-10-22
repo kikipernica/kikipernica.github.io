@@ -1,3 +1,4 @@
+/* základ */
 h1 {
 	color: rgb(0, 0, 0);
 	font-size: 40px;
@@ -91,6 +92,7 @@ ul {
     color:white
 }
 
+/* menu */
 #navbar {
     background-color: rgba(59, 57, 57, 0.134);
     color: white;
@@ -124,6 +126,7 @@ ul {
     border-radius: 5px;
 }
 
+/* zápatí */
 footer {
   background-color: rgba(59, 57, 57, 0.134);
   color: white;
@@ -132,6 +135,7 @@ footer {
   text-align: center;
 }
 
+/* spotify přehrávač */
 iframe {
   display: block;
   width: 80%;        
@@ -146,6 +150,7 @@ iframe {
   
 }
 
+/* záhlaví */
 header {
   position: fixed;
   top: 0;
@@ -156,6 +161,7 @@ header {
 
 }
 
+/* tlačítko */
 .header-button {
   position: absolute;
   top: 1rem;
@@ -183,6 +189,7 @@ header {
 
 }
 
+/* rozlišení */
 @media(max-width:500px) {
     body {
         background-color: rgb(103, 103, 103);
