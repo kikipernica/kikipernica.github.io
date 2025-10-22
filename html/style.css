@@ -124,6 +124,38 @@ ul {
     border-radius: 5px;
 }
 
+footer {
+  background-color: rgba(59, 57, 57, 0.134);
+  color: white;
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  width: 80%;        
+  max-width: 800px;   
+  margin: 0 auto; 
+  border: none;
+  color: rgba(59, 57, 57, 0.134);        
+  padding: 10px;                 
+  background-color: rgba(59, 57, 57, 0.134);   
+  border: 2px solid #999;        
+  border-radius: 8px;            
+  
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
 @media(max-width:500px) {
     body {
         background-color: rgb(103, 103, 103);
@@ -183,36 +215,4 @@ ul {
     font-size: 1rem;
     padding: 0.4rem 0.8rem;
   }
-}
-
-footer {
-  background-color: rgba(59, 57, 57, 0.134);
-  color: white;
-  width: 100%;
-  padding: 5px 0;
-  text-align: center;
-}
-
-iframe {
-  display: block;
-  width: 80%;        
-  max-width: 800px;   
-  margin: 0 auto; 
-  border: none;
-  color: rgba(59, 57, 57, 0.134);        
-  padding: 10px;                 
-  background-color: rgba(59, 57, 57, 0.134);   
-  border: 2px solid #999;        
-  border-radius: 8px;            
-  
-}
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000; /* aby byl nad ostatním obsahem */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* volitelný stín */
-
 }
