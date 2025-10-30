@@ -1,48 +1,82 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Kryštof Pernica</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Kryštof Pernica</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <header>
-      <h1>Portfolio — Kryštof Pernica</h1>
-      <div class="header-button">
-      <a href="druha-stranka.html" class="btn">Ověření</a>
-      </div>
-    </header>
+  <header>
+    <h1>Portfolio — Kryštof Pernica</h1>
+    <div class="header-button">
+      <a href="druha-stranka.html" class="btn">Ověření - Nefunguje</a>
+    </div>
+  </header>
 
-    <main>
-      <h2>Vítej na mém portfoliu!</h2>
-      <p>Ahoj, jsem student střední školy IT a jsem začátečník v jazyku <strong>HTML</strong>. Níže nalezneš moje projekty.</p>
+  <main>
+    <h2>Vítej na mém portfoliu!</h2>
+    <p>Ahoj, jsem student střední školy, studuju na <strong>Obchodní akademii a Střední odborné škole
+        logistické</strong>. Jsem ve třetím ročníku.<br>Dva roky jsem studoval jazyk <strong>Python</strong> a nyní jsem
+      začátečník v jazyku <strong>HTML</strong>.<br><i class="fa-solid fa-arrow-down" style="color: #d7e7f7;"></i>Níže
+      nalezneš moje
+      <strong>projekty</strong><i class="fa-solid fa-arrow-down" style="color: #d7e7f7;"></i>
+    </p>
+    <div class="card-container">
       <a class="card" href="https://kikipernica.github.io/html/index.html" target="_blank" rel="noopener">
-      <div class="card-image">
-      <img src="images/PTK-Web2.png" alt="Náhled osobního webu">
-      </div>
-      <div class="card-content">
-      <h3 class="card-title">PTK - Webová stránka</h3>
-      <p class="card-sub">Moje první Webová stránka, slouží jako testovací.</p>
-      </div>
+        <div class="card-image">
+          <img src="images/PTK-Web2.png" alt="Náhled PTK webu">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">PTK</h3>
+          <p class="card-sub">Stránka o českém rapperovi PTK<br>Tohle je moje první stránka, takže slouží jako testovací
+          </p>
+        </div>
       </a>
-    </main>
 
-    <footer>
-      <div class="footer-section">
+      <a class="card" href="https://kikipernica.github.io/googlesearch" target="_blank" rel="noopener">
+        <div class="card-image">
+          <img src="images/Google Search - Web.png" alt="Náhled Google Search webu">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Google Search</h3>
+          <p class="card-sub">Stránka, která napodobuje Google Search<br>Je to moje druhá stránka, takže nemusí být
+            perfektní</p>
+        </div>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-section">
       <h3>Kontakt</h3>
       <p><a href=""></a><a href="https://github.com/kikipernica" target="_blank">GitHub</a>
-      </div>
+    </div>
 
-      <div class="credits">
-       © <span id="year"></span> Kryštof Pernica - Všechna práva vyhrazena
-      </div>
-    </footer>
+    <div class="credits">
+      © <span id="year"></span> Kryštof Pernica - Všechna práva vyhrazena
+    </div>
+    <div class="container">
+      <p>
+        <a href="https://validator.w3.org/check?uri=referer" target="_blank" rel="noopener">
+          <img src="https://www.w3.org/Icons/valid-html401" alt="Valid HTML" height="50" width="100">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank" rel="noopener">
+          <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS" height="50" width="100">
+        </a>
+      </p>
+    </div>
+  </footer>
 
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-  
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
 </body>
+
 </html>

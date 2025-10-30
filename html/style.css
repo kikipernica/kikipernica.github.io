@@ -1,8 +1,7 @@
-/* základ */
 h1 {
-	color: rgb(0, 0, 0);
-	font-size: 40px;
-	font-weight: 400;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 400;
 }
 
 body {
@@ -12,22 +11,21 @@ body {
   background-color: rgb(103, 103, 103);
 }
 
-img { 
-    width: 300px; 
-    border-radius: 15px; 
-}  
+img {
+  width: 300px;
+  border-radius: 15px;
+}
 
 a {
-    color:blueviolet
-    }
+  color: blueviolet;
+}
 
-nav{
-    background-color: rgba(59, 57, 57, 0.134);
-
+nav {
+  background-color: rgba(59, 57, 57, 0.134);
 }
 nav ul {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
@@ -36,97 +34,93 @@ nav ul {
   gap: 1rem;
 }
 
-nav ul li{
-    width: 300px;
-    list-style-type: none;
-    float: left;
-    text-align: center;
-    line-height: 50px;
-    font-size: 1.5rem;
-    padding: 1rem;
-    flex-wrap: wrap;
-    flex: 1 1 auto;
-    min-width: 150px;
-
+nav ul li {
+  width: 300px;
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.5rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  min-width: 150px;
 }
-nav ul li a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 1.2rem;
-    white-space: nowrap;
-    text-align: center;
-    padding: 0.5rem 1rem;
-    font-weight: bold;
-    border-radius: 25px;
-    
-    border: 2px solid-black;
-    border-radius: 25px;
-    background-color: white;
-    display: inline-block; 
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  white-space: nowrap;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 25px;
 
+  border: 2px solid-black;
+  border-radius: 25px;
+  background-color: white;
+  display: inline-block;
 }
-nav ul li a:hover{
-    border-bottom: 2px solid black;
-    color: rgba(59, 57, 57, 0.134);
-    font-weight: bold;
+nav ul li a:hover {
+  border-bottom: 2px solid black;
+  color: rgba(59, 57, 57, 0.134);
+  font-weight: bold;
 }
 
-p { 
-    text-align: center;
-    color:rgb(255, 255, 255)
+p {
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 ul {
-    color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
 }
 
 li {
-    color:white
+  color: white;
 }
 
 ul {
-    color:white
+  color: white;
 }
 
-/* menu */
 #navbar {
-    background-color: rgba(59, 57, 57, 0.134);
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px;
-    font-size: 24px;
-    font-weight: bold;
+  background-color: rgba(59, 57, 57, 0.134);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 #navbar a {
-    color: white;
-    text-decoration: none;
-    margin: left 2002px;
+  color: white;
+  text-decoration: none;
+  margin: left 2002px;
 }
 
 #navbar ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
+  display: flex;
+  list-style: none;
+  align-items: center;
 }
 
 #navbar ul li a {
-    padding: 10px;
-    margin: 0 4px;
+  padding: 10px;
+  margin: 0 4px;
 }
 
 #navbar ul li a:hover {
-    background-color: #93cb52;
-    border-radius: 5px;
+  background-color: #93cb52;
+  border-radius: 5px;
 }
 
-/* zápatí */
 footer {
   background-color: rgba(59, 57, 57, 0.134);
   color: white;
@@ -135,33 +129,28 @@ footer {
   text-align: center;
 }
 
-/* spotify přehrávač */
 iframe {
   display: block;
-  width: 80%;        
-  max-width: 800px;   
-  margin: 0 auto; 
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
   border: none;
-  color: rgba(59, 57, 57, 0.134);        
-  padding: 10px;                 
-  background-color: rgba(59, 57, 57, 0.134);   
-  border: 2px solid #999;        
-  border-radius: 8px;            
-  
+  color: rgba(59, 57, 57, 0.134);
+  padding: 10px;
+  background-color: rgba(59, 57, 57, 0.134);
+  border: 2px solid #999;
+  border-radius: 8px;
 }
 
-/* záhlaví */
 header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* tlačítko */
 .header-button {
   position: absolute;
   top: 1rem;
@@ -186,58 +175,56 @@ header {
 .btn {
   background-color: #ffffff;
   color: #000;
-
 }
 
-/* rozlišení */
-@media(max-width:500px) {
-    body {
-        background-color: rgb(103, 103, 103);
-    }
+@media (max-width: 500px) {
+  body {
+    background-color: rgb(103, 103, 103);
+  }
 
-    #smartphone {
-        display: block;
-    }
+  #smartphone {
+    display: block;
+  }
 }
 
-@media(min-width: 501px) and (max-width:768px) {
-    body {
-        background-color: rgb(103, 103, 103);
-    }
+@media (min-width: 501px) and (max-width: 768px) {
+  body {
+    background-color: rgb(103, 103, 103);
+  }
 
-    #tablet {
-        display: block;
-    }
+  #tablet {
+    display: block;
+  }
 }
 
-@media(min-width: 769px) and (max-width:1200px) {
-    body {
-        background-color: rgb(103, 103, 103);
-    }
+@media (min-width: 769px) and (max-width: 1200px) {
+  body {
+    background-color: rgb(103, 103, 103);
+  }
 
-    #normal {
-        display: block;
-    }
+  #normal {
+    display: block;
+  }
 }
 
-@media(min-width: 1201px) {
-    body {
-        background-color: rgb(103, 103, 103);
-    }
+@media (min-width: 1201px) {
+  body {
+    background-color: rgb(103, 103, 103);
+  }
 
-    #widescreen {
-        display: block;
-    }
+  #widescreen {
+    display: block;
+  }
 }
 
-@media(max-height: 500px) {
-    body {
-        background-color: rgb(103, 103, 103);
-    }
+@media (max-height: 500px) {
+  body {
+    background-color: rgb(103, 103, 103);
+  }
 
-    #landscape {
-        display: block;
-    }
+  #landscape {
+    display: block;
+  }
 }
 
 @media (max-width: 600px) {

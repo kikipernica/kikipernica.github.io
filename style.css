@@ -22,7 +22,6 @@ body {
   background-color: rgb(103, 103, 103);
 }
 
-/* záhlaví */
 header {
   text-align: center;
   padding: 20px 0;
@@ -36,7 +35,6 @@ header h1 {
   font-weight: 700;
 }
 
-/* hlavní */
 main {
   flex: 1;
   display: flex;
@@ -72,7 +70,6 @@ a:hover {
   color: #000000;
 }
 
-/* zápatí */
 footer {
   background: rgb(59, 57, 57, 0.134);
   padding: 30px 20px;
@@ -110,7 +107,6 @@ footer a:hover {
   color: #7f91a6;
 }
 
-/* tlačítko */
 .header-button {
   position: absolute;
   top: 1rem;
@@ -137,7 +133,6 @@ footer a:hover {
   color: #000;
 }
 
-/* karta s webovou stránkou */
 .card {
   display: block;
   width: 320px;
@@ -152,9 +147,18 @@ footer a:hover {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.06), 0 20px 40px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.06),
+    0 20px 40px rgba(0, 0, 0, 0.7);
 }
 
 .card-image img {
@@ -184,7 +188,6 @@ footer a:hover {
   opacity: 0.95;
 }
 
-/* rozlišení */
 @media (max-width: 640px) {
   header h1 {
     font-size: 1.4rem;
